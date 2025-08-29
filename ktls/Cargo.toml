@@ -34,7 +34,7 @@ rcgen = "0.13.1"
 socket2 = "0.5.7"
 test-case = "3.3.1"
 tokio = { version = "1.39.2", features = ["full"] }
-tracing-subscriber = { version = "0.3.18", features = ["env-filter"] }
+tracing-subscriber = { version = "0.3.20", features = ["env-filter"] }
 
 [features]
 default = ["aws_lc_rs", "tls12"]
